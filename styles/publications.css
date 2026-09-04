@@ -1,128 +1,190 @@
-/* --------NAV BAR--------- */
-.nav-box {
-    width: 100%;
-    height: 100px;
-    /* border: 1px solid white; */
-    display: flex;
-    align-items: center;
-  }
-  .logo {
-    margin-left: 10rem;
-    margin-right: 30rem;
-    height: 8rem;
-    width: auto;
-  }
-  .nav-list {
-    display: flex;
-    font-size: 1.5rem;
-  }
-  .nav-list > li {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-  .button-1 {
-    border: 1px solid white;
-    border-radius: 50px;
-    height: 5.5rem;
-    width: 15rem;
-    margin-left: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.7rem;
-  }
-  .button-2 {
-    border: 1px solid white;
-    border-radius: 50px;
-    height: 5.5rem;
-    width: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.7rem;
-    background-color: red;
-  }
-/* =================nav-bar END===================   */
+/* =========================================
+   PUBLICATIONS PAGE STYLES (SALT'N PEPPER)
+========================================= */
 
-.boxes{
-    display: flex;
-    justify-content: center;
+.pub-hero {
+  padding: 150px 6% 60px;
+  background: radial-gradient(circle at 50% 20%, rgba(212, 175, 55, 0.1) 0%, transparent 65%),
+              linear-gradient(180deg, var(--bg-main) 0%, #121218 100%);
+  text-align: center;
+}
+
+.pub-hero-content {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.pub-hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(3.4rem, 5.5vw, 5.6rem);
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.pub-hero-desc {
+  font-size: clamp(1.6rem, 2vw, 2rem);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Books Showcase */
+.books-section {
+  padding: 70px 6% 90px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.book-card {
+  background: rgba(24, 24, 32, 0.85);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: var(--transition-normal);
+  perspective: 1000px;
+}
+
+.book-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(212, 175, 55, 0.4);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.7), 0 0 25px rgba(212, 175, 55, 0.12);
+}
+
+.book-3d-wrap {
+  width: 240px;
+  height: 350px;
+  position: relative;
+  margin-bottom: 30px;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  filter: drop-shadow(0 15px 25px rgba(0,0,0,0.7));
+}
+
+.book-card:hover .book-3d-wrap {
+  transform: rotateY(-12deg) scale(1.05);
+}
+
+.book-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.book-author-tag {
+  color: var(--accent-gold);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.book-title {
+  font-family: var(--font-serif);
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.book-summary {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 25px;
+  max-width: 450px;
+}
+
+/* Branch Availability Grid */
+.branch-stock-section {
+  padding: 90px 6%;
+  background: var(--bg-surface);
+}
+
+.branch-stock-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stock-branch-card {
+  background: rgba(22, 22, 28, 0.85);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  padding: 28px 24px;
+  transition: var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+}
+
+.stock-branch-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-glass-hover);
+  box-shadow: var(--shadow-card);
+}
+
+.stock-city-pill {
+  color: var(--accent-red);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.stock-branch-title {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.stock-address {
+  font-size: 1.45rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.stock-phone {
+  font-size: 1.4rem;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stock-phone a:hover {
+  color: #ffffff;
+}
+
+.stock-branch-card .btn-directions {
+  margin-top: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .books-grid {
+    grid-template-columns: 1fr;
     gap: 40px;
-    flex-wrap: wrap;
-}
-.book-box{
-    border: 1px solid rgb(104, 88, 69);
-    width: 40%;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.book-img{
-    height: 85%;
-    transition: 0.5s;
-}
-.book-img:hover{
-    height: 95%;
-}
-h1{
-    font-size: 4.5rem;
-    text-align: center;
-    margin-top: 40px;
-}
-h2{
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 40px;
-}
-.text{
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: 7px;
-    color: rgb(195, 195, 195);
-}
-
-
-
-/* ==========================footer start=================== */
-
-footer{
-    margin-top: 50px;
-    height: 450px;
-    background-color: rgb(26, 26, 26);
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    padding-top: 70px;
   }
-  .footer-first-box {
-    width: 282px;
-    font-size: 1.3rem;
-  }
-  .footer-logo {
-    height: 50px;
-    margin-bottom: 25px;
-  }
-  .headings {
-    font-weight: 1000;
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    margin-top: 15px;
-  }
-  .footer-second-box > ul > li {
-    margin-bottom: 13px;
-    margin-top: 13px;
-  }
-  .footer-links {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: azure;
-  }
-  
-  .social-icon-circle {
-    width: 35px;
-    height: 35px;
-    background-color: red;
-    border-radius: 100%;
-  }
-  /* ==========================footer start=================== */
+}
