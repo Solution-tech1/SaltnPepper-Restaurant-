@@ -12,6 +12,14 @@
   </head>
   <body>
     <!-- =========================================
+         PORTFOLIO CONCEPT DISCLAIMER BAR
+    ========================================= -->
+    <aside class="portfolio-disclaimer-bar" role="note" aria-label="Portfolio Showcase Disclaimer">
+      <span class="badge-brand">PORTFOLIO SHOWCASE</span>
+      <span>Concept Redesign & Architecture by <strong>Solution Tech</strong> &bull; Independent UI/UX Showcase (Not the official commercial website)</span>
+    </aside>
+
+    <!-- =========================================
          NAVIGATION BAR
     ========================================= -->
     <nav class="nav-box" id="navbar">
@@ -150,20 +158,29 @@
             <h3 class="rating-matrix-title" style="font-size: 2.2rem;">Guest & Visit Details</h3>
           </div>
 
+          <!-- Safe Portfolio Demo Notice -->
+          <div style="background: rgba(192, 132, 252, 0.08); border: 1px solid rgba(192, 132, 252, 0.28); border-radius: 10px; padding: 16px 20px; margin-bottom: 25px; display: flex; align-items: center; gap: 14px; text-align: left;">
+            <span style="font-size: 2.2rem; line-height: 1;">🛡️</span>
+            <div>
+              <p style="color: #ffffff; font-weight: 600; font-size: 1.4rem; margin-bottom: 4px;">Portfolio Demonstration Mode</p>
+              <p style="color: var(--text-secondary); font-size: 1.25rem; line-height: 1.5; margin: 0;">This interactive rating and feedback experience is engineered by <strong>Solution Tech</strong> for portfolio demonstration only. No personal phone numbers or sensitive data are required, collected, or stored.</p>
+            </div>
+          </div>
+
           <div class="feedback-form-grid">
             <div class="form-group">
-              <label class="form-label" for="guestName">Full Name <span class="req">*</span></label>
-              <input class="form-input" type="text" id="guestName" placeholder="e.g. Tariq Mehmood" required />
+              <label class="form-label" for="guestName">Guest Name <span style="color: var(--text-muted); font-size: 1.15rem; font-weight: normal;">(Demo)</span></label>
+              <input class="form-input" type="text" id="guestName" placeholder="e.g. Tariq Mehmood" />
             </div>
 
             <div class="form-group">
-              <label class="form-label" for="guestPhone">Contact Number <span class="req">*</span></label>
-              <input class="form-input" type="tel" id="guestPhone" placeholder="03XX-XXXXXXX" required />
+              <label class="form-label" for="guestPhone">Contact Number <span style="color: var(--text-muted); font-size: 1.15rem; font-weight: normal;">(Optional / Demo Only)</span></label>
+              <input class="form-input" type="text" id="guestPhone" placeholder="Demo only — No real number needed" />
             </div>
 
             <div class="form-group">
-              <label class="form-label" for="guestEmail">Email Address</label>
-              <input class="form-input" type="email" id="guestEmail" placeholder="tariq@example.com" />
+              <label class="form-label" for="guestEmail">Email Address <span style="color: var(--text-muted); font-size: 1.15rem; font-weight: normal;">(Optional)</span></label>
+              <input class="form-input" type="text" id="guestEmail" placeholder="demo@example.com" />
             </div>
 
             <div class="form-group">
@@ -308,8 +325,8 @@
       </div>
 
       <div class="footer-bottom-bar">
-        <p>© 2026 Salt'n Pepper Restaurants Pakistan. All rights reserved.</p>
-        <p>Crafted with <span class="heart">♥</span> for Pakistani Gastronomy.</p>
+        <p>© 2026 Salt'n Pepper Concept Redesign Showcase. Engineered by <strong>Solution Tech</strong>.</p>
+        <p>Independent UI/UX demonstration — Brand trademarks belong to Salt'n Pepper Restaurants Pakistan.</p>
       </div>
     </footer>
 

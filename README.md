@@ -1,17 +1,20 @@
-# Salt'n Pepper Restaurants Pakistan 🍽️
+# Salt'n Pepper Restaurant Redesign — Portfolio Concept 🍽️
 
-> **The Pioneer of Hospitality & Fine Dining in Pakistan Since 1983**
+> **Independent Luxury Concept Redesign engineered by Solution Tech**
+> *(Originally founded in 1983 — All official trademarks belong to Salt'n Pepper Restaurants Pakistan)*
 
-A modern, high-converting, luxury digital restaurant web application engineered for **Salt'n Pepper**, Pakistan's most distinguished hospitality brand.
+A modern, high-converting, luxury digital restaurant web application engineered as a portfolio showcase demonstration by **Solution Tech**.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-e60026?style=for-the-badge&logo=github)](https://raoraza12.github.io/SALT-AND-PEPPER/)
+[![Vercel Live](https://img.shields.io/badge/Live_Website-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://salt-and-pepper-flax.vercel.app)
+[![GitHub Pages](https://img.shields.io/badge/Live_Demo-GitHub_Pages-e60026?style=for-the-badge&logo=github)](https://raoraza12.github.io/SALT-AND-PEPPER/)
 [![License](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)](LICENSE)
 
 ---
 
 ## 🌐 Live Website & Demo
 
-- **Live URL**: [https://raoraza12.github.io/SALT-AND-PEPPER/](https://raoraza12.github.io/SALT-AND-PEPPER/)
+- **Live Production URL (Vercel)**: [https://salt-and-pepper-flax.vercel.app](https://salt-and-pepper-flax.vercel.app)
+- **GitHub Pages Demo**: [https://raoraza12.github.io/SALT-AND-PEPPER/](https://raoraza12.github.io/SALT-AND-PEPPER/)
 - **Repository**: [https://github.com/raoraza12/SALT-AND-PEPPER](https://github.com/raoraza12/SALT-AND-PEPPER)
 
 ---
@@ -80,4 +83,4 @@ A modern, high-converting, luxury digital restaurant web application engineered 
 
 ---
 
-Developed with ♥ by [Rao Raza](https://github.com/raoraza12).
+Developed with ♥ by **Solution Tech**.
