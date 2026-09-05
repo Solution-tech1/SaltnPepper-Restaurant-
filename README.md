@@ -6,16 +6,14 @@
 A modern, high-converting, luxury digital restaurant web application engineered as a portfolio showcase demonstration by **Solution Tech**.
 
 [![Vercel Live](https://img.shields.io/badge/Live_Website-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://salt-and-pepper-flax.vercel.app)
-[![GitHub Pages](https://img.shields.io/badge/Live_Demo-GitHub_Pages-e60026?style=for-the-badge&logo=github)](https://raoraza12.github.io/SALT-AND-PEPPER/)
 [![License](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)](LICENSE)
 
 ---
 
 ## 🌐 Live Website & Demo
 
-- **Live Production URL (Vercel)**: [https://salt-and-pepper-flax.vercel.app](https://salt-and-pepper-flax.vercel.app)
-- **GitHub Pages Demo**: [https://raoraza12.github.io/SALT-AND-PEPPER/](https://raoraza12.github.io/SALT-AND-PEPPER/)
-- **Repository**: [https://github.com/raoraza12/SALT-AND-PEPPER](https://github.com/raoraza12/SALT-AND-PEPPER)
+- **Live Production URL**: [https://salt-and-pepper-flax.vercel.app](https://salt-and-pepper-flax.vercel.app)
+- **GitHub Repository**: [https://github.com/raoraza12/SALT-AND-PEPPER](https://github.com/raoraza12/SALT-AND-PEPPER)
 
 ---
 
